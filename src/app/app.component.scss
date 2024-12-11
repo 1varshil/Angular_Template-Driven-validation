@@ -1,0 +1,29 @@
+/* example-form.component.scss */
+input
+  {
+    &.ng-pristine {
+    border: 2px solid #ccc;
+  }
+}
+  
+  input.ng-dirty {
+    border: 2px solid #009688;
+  }
+  
+  input.ng-valid {
+    background-color: #e8f5e9;
+  }
+  
+  input.ng-invalid.ng-touched {
+    border: 2px solid #e53935;
+  }
+  
+  input.ng-untouched {
+    background-color: #f0f0f0;
+  }
+  
+  .error {
+    color: #e53935;
+    font-size: 0.8rem;
+  }
+  
